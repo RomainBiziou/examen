@@ -1,0 +1,244 @@
+    1  ls
+    2  mkdir Workspace
+    3  ls
+    4  cd Workspace/
+    5  cd 
+    6  rm Workspace/
+    7  rm -f Workspace/
+    8  mkdir dev
+    9  cd dev
+   10  mkdir workspace
+   11  cd workspace/
+   12  mkdir myrepo
+   13  ls
+   14  cd ~
+   15  ~cd c
+   16  su
+   17  sudo
+   18  cd dev
+   19  cd workspace/
+   20  cd myrepo/
+   21   cd
+   22  cd c:
+   23  mkdir dev
+   24  cd dev
+   25  mkdir workspace
+   26  cd workspace/
+   27  mkdir myrepo
+   28  ls
+   29  cd myrepo/
+   30  ls
+   31  touch script.py
+   32  ls
+   33  git init
+   34  git add script.py
+   35  git commit -m "Ajout de script.py"
+   36  ls
+   37  get commit -m "hello world"
+   38  get commit -m "hello world scrpit.py"
+   39  git commit -m "hello world"
+   40  git status
+   41  git commit -m "hello world script.py"
+   42  git log
+   43  git commit -m 'hello world script.py'
+   44  git add script.py
+   45  git commit -m 'hello world script.py'
+   46  git log
+   47  git log
+   48  cd c:
+   49  ls
+   50  cd dev/
+   51  ls
+   52  cd workspace
+   53  ls
+   54  cd myrepo
+   55  git log
+   56  git commit -m 'hello world script.py'
+   57  git log
+   58  git add script.py
+   59  git commit -m 'hello romain script.py'
+   60  git log
+   61  git add script.py
+   62  git commit -m 'hello romain script.py'
+   63  git log
+   64  git add script.py
+   65  git commit -m 'modification de hello romain en hello romain B script.py'
+   66  git log
+   67  git add script.py
+   68  git commit -m 'ajout de l'age script.py'
+   69  git log
+   70  git commit -m 'ajout de l age'
+   71  git log
+   72  git add script.py 
+   73  git commit -m 'addition'
+   74  git log
+   75  git add script.py
+   76  git commit -m 'bsn'
+   77  git log
+   78  git checkout 76d151acc8c05e490805b350100fbe7d2f7380b5
+   79  git log
+   80  git checkout master
+   81  git log
+   82  git add script.py 
+   83  git commit -m 'faute d'orthographe'
+   84  git commit -m 'faute d orthographe'
+   85  git log
+   86  git branch idea
+   87  git log
+   88  git checkout idea
+   89  git add script.py 
+   90  git commit -m 'oui ou non'
+   91  git add script.py 
+   92  git commit -m 'modification de oui ou non'
+   93  git add script.py 
+   94  git commit -m 'v2 oui ou non'
+   95  git log --graph --pretty=oneline --abbrev-commit
+   96  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+   97  git checkout master
+   98  git add script.py 
+   99  git commit -m 'ajout de bien joue'
+  100  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  101  git merge idea
+  102  git merge idea
+  103  git commit -m 'merge branche idea'
+  104  git checkout master
+  105  git merge idea
+  106  git commit -m 'merge branche idea'
+  107  git add script.py 
+  108  git commit -m 'merge branche idea'
+  109  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  110  cd ..
+  111  mkdir first-online-repo
+  112  cd f
+  113  cd first-online-repo/
+  114  git init
+  115  touch README.md
+  116  nano README.md 
+  117  git add README.md 
+  118  nano README.md 
+  119  git add README.md 
+  120  cd ..
+  121  cd myrepo/
+  122  git remote add origin https://github.com/RomainBiziou/myrepo.git
+  123  git push -u origin master
+  124  ls
+  125  cd dev/
+  126  cd myrepo/
+  127  ls
+  128  cd workspace/
+  129  cd myrepo/
+  130  git clone 
+  131  biziou.romain@ESQESE-BDN-010 MINGW64 ~
+  132  $
+  133  git clone https://github.com/le-goat/myrepo.git
+  134  mkdir dossier_cloné
+  135  ls
+  136  cd dossier_cloné/
+  137  git clone https://github.com/le-goat/repo2
+  138  git clone https://github.com/le-goat/letest
+  139  ls
+  140  git clone https://github.com/le-goat/myrepo
+  141  ls
+  142  cd myrepo/
+  143  ls
+  144  cd ..
+  145  cd ..
+  146  cd c:
+  147  ls
+  148  cd dev/
+  149  ls
+  150  cd workspace/
+  151  ls
+  152  cd myrepo/
+  153  ls
+  154  cd ..
+  155  cd myrepo/
+  156  nano script.py 
+  157  cd ..
+  158  mkdir dossierclone
+  159  cd dossierclone/
+  160  git clone https://github.com/le-goat/myrepo
+  161  ls
+  162  cd myrepo/
+  163  ls
+  164  nano script.py 
+  165  git log
+  166  git add script.py
+  167  git commit -m "ajoutdallervasy"
+  168  git pull
+  169  git push
+  170  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  171  git pull
+  172  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  173  git pull
+  174  git tag
+  175  git pull
+  176  git tag
+  177  git pull
+  178  git pull
+  179  git tag
+  180  git checkout develop 
+  181  git pull
+  182  cd c:
+  183  cd dev/
+  184  cd workspace/
+  185  mkdir examen
+  186  ls
+  187  cd examen/
+  188  git init
+  189  nano script.py
+  190  git add script.py
+  191  git add script.py 
+  192  git commit -m "creation de script.py "
+  193  git log
+  194  git add script.py 
+  195  git commit -m "ajout d une phrase dans le script"
+  196  git log
+  197  git commit -m "ajout de Oui dans script.py"
+  198  git commit -m "ajout de Oui dans script "
+  199  git add script.py 
+  200  git commit -m "ajout de Oui dans script "
+  201  git log
+  202  git add script.py 
+  203  git commit -m "Modification de Oui en Non dans le script"
+  204  git log
+  205  git push
+  206  git push -u origin master
+  207  git push -u master
+  208  git remote add https://github.com/RomainBiziou/examen
+  209  git remote add origin https://github.com/RomainBiziou/examen
+  210  git push origin master 
+  211  git add script.py 
+  212  git commit -m "Modification du script"
+  213  git push origin master 
+  214  git branch develop
+  215  git checkout develop 
+  216  git add script.py 
+  217  git commit -m "Suppresssion dune ligne dans script.py"
+  218  git add script.py 
+  219  git commit -m "Supression de Non dans script.py"
+  220  git add script.py 
+  221  git commit -m "Suppression de Hello world et modification dans script.py"
+  222  git push origin develop 
+  223  git checkout master 
+  224  git merge develop 
+  225  git tag -a v1.0 -m "v1.0 la pratique je maîtrise"
+  226  git tag 
+  227  git push origin master 
+  228  git log
+  229  git checkout 144d57cff639b8beed46cd9959d47301bd219b7d
+  230  git log
+  231  git branch hotfix
+  232  git checkout hotfix 
+  233  git add script.py 
+  234  git commit -m "ajout de peut-être enfaite"
+  235  git push origin master 
+  236  git push origin hotfix 
+  237  git checkout master 
+  238  git log --graph
+  239  ls
+  240  git push
+  241  pit push origin master
+  242  git push origin master 
+  243  touch cmds
+  244  history > cmds
